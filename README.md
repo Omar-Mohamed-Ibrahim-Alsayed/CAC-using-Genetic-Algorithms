@@ -19,7 +19,7 @@ This project demonstrates the implementation of a sophisticated data encoding te
 ### Constant Area Coding (CAC)
 CAC is a data encoding method used primarily for image and video compression. It divides an image or video frame into uniformly sized parts and encodes each region to occupy the same predetermined area. This approach offers advantages such as simplified data management, reduced computational complexity, and predictable memory requirements.
 <p align="center">
-<img src="image.png" alt="drawing" width="80%"/>
+<img src="image.png" alt="drawing" />
 </p>
 <p align = "center">
 Example of a randomly generated image
