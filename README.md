@@ -3,12 +3,6 @@
 ## Project Overview
 This project demonstrates the implementation of a sophisticated data encoding technique called Constant Area Coding (CAC) for image compression using a Genetic Algorithm. CAC is designed to ensure that encoded data occupies a constant area, enabling efficient and consistent storage space utilization, particularly useful in real-time applications requiring constant data flow.
 
-Table of Contents
-Introduction
-Code Structure
-How to Run
-Results
-License
 
 ## Table of Contents
 1. [Introduction](#introduction)
