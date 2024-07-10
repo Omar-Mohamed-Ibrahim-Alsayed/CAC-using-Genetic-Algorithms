@@ -34,10 +34,10 @@ Fitness Function: Evaluates the suitability of different kernel dimensions for e
 Constant Area Coding: Applies the CAC method to an image, dividing it into blocks and encoding each block.
 
 ### Genetic Algorithm Operations:
-Selection: Selects the most fit chromosomes for reproduction.
-Crossover: Performs crossover between two parent chromosomes to generate offspring.
-Mutation: Introduces random changes to a chromosome to maintain genetic diversity.
-Utility Functions: Helper functions for decoding binary representations, concatenating chromosomes, and reconstructing the original image.
+- Selection: Selects the most fit chromosomes for reproduction.
+- Crossover: Performs crossover between two parent chromosomes to generate offspring.
+- Mutation: Introduces random changes to a chromosome to maintain genetic diversity.
+- Utility Functions: Helper functions for decoding binary representations, concatenating chromosomes, and reconstructing the original image.
 
 
 ## Results
