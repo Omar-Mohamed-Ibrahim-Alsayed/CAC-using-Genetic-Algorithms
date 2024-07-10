@@ -6,7 +6,7 @@ This project demonstrates the implementation of a sophisticated data encoding te
 
 ## Table of Contents
 1. [Introduction](#introduction)
-    - [Constant Area Coding (CAC)](#Constant-Area-Coding (CAC))
+    - [Constant Area Coding (CAC)](#Constant=Area-Coding-(CAC))
     - [Genetic Algorithm](#Genetic-Algorithm) 
 2. [Code Structure](#Code-Structure)
     - [Main Components](#Main-Components)
