@@ -48,3 +48,29 @@ Utility Functions: Helper functions for decoding binary representations, concate
 
 ## Results
 The algorithm evolves the population over several epochs, selecting the best kernel dimensions for image compression. The output includes the fitness values at each epoch and the final encoded and decoded image.
+Here is a sample output of 10 epochs:
+```
+ORIGINAL P, Q:
+P: [13, 1, 5, 3, 5, 0, 5, 1]
+Q: [3, 13, 4, 0, 13, 3, 0, 5]
+VALUE AT 0 IS OMITTED: KERNEL_H=13, KERNEL_W=3
+VALUE AT 1 IS OMITTED: KERNEL_H=1, KERNEL_W=13
+VALUE AT 2 IS OMITTED: KERNEL_H=5, KERNEL_W=4
+VALUE AT 3 IS OMITTED: KERNEL_H=3, KERNEL_W=0
+VALUE AT 4 IS OMITTED: KERNEL_H=5, KERNEL_W=13
+VALUE AT 5 IS OMITTED: KERNEL_H=0, KERNEL_W=3
+VALUE AT 6 IS OMITTED: KERNEL_H=5, KERNEL_W=0
+FITNESS AT EPOCH 9: [-1, -1, -1, -1, -1, -1, -1, 5.0]
+VALUE AT 0 IS OMITTED: KERNEL_H=13, KERNEL_W=3
+VALUE AT 1 IS OMITTED: KERNEL_H=1, KERNEL_W=13
+VALUE AT 2 IS OMITTED: KERNEL_H=5, KERNEL_W=4
+VALUE AT 3 IS OMITTED: KERNEL_H=3, KERNEL_W=0
+VALUE AT 4 IS OMITTED: KERNEL_H=5, KERNEL_W=13
+VALUE AT 5 IS OMITTED: KERNEL_H=0, KERNEL_W=3
+VALUE AT 6 IS OMITTED: KERNEL_H=5, KERNEL_W=0
+FITNESS AT LAST EPOCH: [5.0, -1, -1, -1, -1, -1, -1, -1]
+NEW P, Q:
+P: [1, 5]
+Q: [5, 13]
+END OF EPOCH LAST EPOCH
+```
